@@ -1,0 +1,9 @@
+对列表前七位进行排序（先对列表进行切片，返回新列表。对新列表进行排序，把新列表赋值给原切片列表
+
+list01 = [2,1,3,6,5,67,3,6]
+temp = list01[:7]
+temp.sort()
+list01[:7] = temp
+
+for item  in list01:
+    print(item ,end=" ")
